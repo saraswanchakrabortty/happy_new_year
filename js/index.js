@@ -1,11 +1,5 @@
-
-let value = prompt("Enter you sweet name please 😊")
 let box3 = new Audio("./audio/box3.mp3");
 let sound = new Audio("./audio/sound.mp3");
-
-const change_name = () =>{
-  document.getElementById("input_name").innerText = value;
-}
 
 window.requestAnimFrame = function () {
   return window.requestAnimationFrame ||
